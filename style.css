@@ -1,5 +1,5 @@
 
-header, nav, main, footer {
+header, h1, nav, main, footer {
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -16,6 +16,10 @@ header {
   position: sticky;
 	padding: 4rem;
 	text-align: center;
+}
+
+h1 {
+  text-align: center;
   
 }
 
