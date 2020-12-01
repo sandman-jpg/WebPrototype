@@ -1,0 +1,22 @@
+html {
+	scroll-behavior: smooth;
+}
+
+
+header {
+	grid-area: header;
+	background: #025302;
+	color: white;
+  position: sticky;
+	padding: 4rem;
+	text-align: center;
+  
+}
+
+footer {
+	grid-area: footer;
+	background: #025302;
+	color: white;
+	padding: 4rem;
+	text-align: center;
+}
