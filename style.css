@@ -22,9 +22,15 @@ header {
   padding-right: 1 ;
 }
 
+#donation-intro {
+  text-align: center;
+}
+
 h1 {
   text-align: center;
   margin-bottom: 100px;
+  color: #025302;
+
 }
 
 ul {
