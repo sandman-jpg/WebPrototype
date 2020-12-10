@@ -27,19 +27,26 @@
       <h1>Your contribution saves a life.</h1>
 
       <section id = "donation-intro">
-        <p>There are multiple options for you to make a contribution to WIRES.</p>
+        <p>Fill in the form to make your donation via credit/debit card.</p>
 
-        <ul>
-          <li>Make a donation via credit card</li>
-        </ul>
       </section>
 
       <!--Want to make EACH donation option a section so users can click the options in the intro paragraph, so then it links them straight down to the option they want/have clicked-->
-      <section id = "debit-card"
-        <form>
-        <input type="email" name="email">
+      <div id = "form"
+        <form name = "donation">
+          <label for="firstname">First name *</label>
+          <input type="text" id="firstname" name="fname">
+          <label for="lastname">Last name *</label>
+          <input type="text" id="lastname" name="fname">
+          <br>
+          
+          <label for="amount">Donation Amount: * </label>
+          <input type="text" id="amount" name="email">
+
        </form>
-      </section>
+        <button>DONATE</button>
+
+      </div>
     </main>
     <script src="script.js"></script>
   </body>
